@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #121212;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 850px;
+      background: linear-gradient(145deg, #3a3a3a, #222);
+      color: #f5f5f5;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+      overflow-y: auto;
+    }
+
+    .title {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .title h1 {
+      font-size: 2.2rem;
+      font-weight: 600;
+      color: #00adb5;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+      color: #00adb5;
+      border-left: 4px solid #00adb5;
+      padding-left: 8px;
+      text-transform: uppercase;
+    }
+
+    p,
+    li {
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #e0e0e0;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 15px;
+    }
+
+    ul li::before {
+      content: "*";
+      color: #00adb5;
+    }
+
+    .contact {
+      text-align: left;
+      margin-bottom: 20px;
+    }
+
+    .contact p {
+      margin: 5px 0;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+
+      .title h1 {
+        font-size: 1.8rem;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+      }
+
+      p,
+      li {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+   
+    <div class="title">
+      <h1><u>Resume</u></h1>
+    </div>
+    <div class="contact section">
+      <h2>Sanket Kulkarni</h2>
+      <p><strong>B.E. Computer Science Engineering</strong>, 5th Semester</p>
+      <p>Email: <a href="sanketkulkarni1973@gmail.com" style="color:#00adb5;">sanketkulkarni1973@gmail.com</a></p>
+      <p>Phone: <a href="tel:+917353153561" style="color:#00adb5;">+91-7353153561</a></p>
+    </div>
+    <div class="section">
+      <h2>Education</h2>
+      <p>Bachelor of Engineering in Computer Science (CSE)<br>
+        GNDEC,Bidar</p>
+    </div>
+    <div class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>Programming: Python, Java, HTML, CSS</li>
+        <li>Core Areas: Data Structures, Algorithms</li>
+        <li>Hands-on: Web Development, Machine Learning, Artificial Intelligence</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>Interests</h2>
+      <p>Passionate about Artificial Intelligence, Web Development, and Machine Learning.</p>
+    </div>
+    <div class="section">
+      <h2>Projects</h2>
+      <ul>
+        <li>Mini Website using HTML & CSS</li>
+        <li>Basic Python Programs (Data Analysis & Automation)</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
